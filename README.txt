@@ -1,5 +1,10 @@
-https://api.github.com/repos/bewom/repository/commits -> [0] -> commit -> tree -> url
-https://api.github.com/repos/bewom/repository/git/trees/e27a0c714739e1a7f565e51156a8f927febf2e84 -> tree -> files -> url
+#Versión del instalador
+
+https://api.github.com/repos/bewom/repository/releases -> [0] -> tag_name
+
+#Instalador
+
+https://api.github.com/repos/bewom/repository/commits -> [0] -> commit -> tree -> url -> (open) -> tree -> files -> url
 AND REPEAT <->
 
 0- Comprobar que existe el archivo launcher_profiles.json en Roamidng/.minecraft/ THROW ERROR
