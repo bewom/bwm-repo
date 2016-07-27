@@ -1,17 +1,14 @@
 {
-  "inheritsFrom": "1.8.9",
+  "inheritsFrom": "1.10.2",
   "id": "bewom",
-  "time": "2016-02-29T22:22:14+01:00",
+  "time": "2016-07-11T21:38:49+02:00",
   "releaseTime": "1960-01-01T08:00:00+01:00",
   "type": "release",
-  "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userProperties ${user_properties} --userType ${user_type} --tweakClass net.minecraftforge.fml.common.launcher.FMLTweaker",
+  "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --tweakClass net.minecraftforge.fml.common.launcher.FMLTweaker --versionType Forge",
   "libraries": [
     {
-      "name": "net.minecraftforge:forge:1.8.9-11.15.1.1764",
+      "name": "net.minecraftforge:forge:1.10.2-12.18.1.2011",
       "url": "http://files.minecraftforge.net/maven/"
-    },
-    {
-      "name": "io.netty:netty-all:4.0.23.Final"
     },
     {
       "name": "net.minecraft:launchwrapper:1.12"
@@ -81,8 +78,7 @@
     }
   ],
   "mainClass": "net.minecraft.launchwrapper.Launch",
-  "minimumLauncherVersion": 14,
-  "assets": "1.8",
-  "jar": "1.8.9",
+  "minimumLauncherVersion": 0,
+  "jar": "1.10.2",
   "downloads": {}
 }
